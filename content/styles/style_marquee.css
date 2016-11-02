@@ -1,0 +1,503 @@
+html
+{
+	margin: auto;
+}
+body
+{
+	width: 99%;
+	background: url('../images/bgimg.jpg') repeat top left;
+	padding: 2px;
+	border: 0;
+	margin: auto;
+}
+a
+{
+	width: 62px;
+	color: black;
+	text-decoration: none;
+	display: table;
+}
+a:hover
+{
+	cursor: url("../cursors/wii-pointer-ccw.cur"), progress !important;
+}
+q
+{
+	quotes: '[' ']';
+}
+bdi
+{
+	line-height: 15px;
+	font-size: 10px;
+	font-family: Corsiva;
+	float: right;
+	padding: 0 0 2px 0;
+	margin: 0;
+}
+bdi::after
+{
+	font-size: 15px;
+	content: attr(content-text);
+	position: absolute;
+	top: 195px;
+	left: 490px;
+	z-index: 10;
+	display: none;
+	color: black;
+}
+bdo
+{
+	font-family: papyrus, fantasy;
+	line-height: 16px;
+	font-size: 10px;
+	float: right;
+	direction: ltr;
+	margin: 0;
+}
+bdo::after{
+	font-size: 20px;
+	content: attr(content-text);
+	position: absolute;
+	top: 100px;
+	left: 490px;
+	z-index: 2;
+	display: none;
+	color: black;
+	direction: rtl;
+}
+hr
+{
+	border: 1px solid black;
+}
+span > hr:nth-of-type(1) {
+	width: 70px;
+	position: absolute;
+	top: 95px;
+	left: 640px;
+	z-index: 3;
+}
+span > hr:nth-of-type(2) {
+	width: 90px;
+	position: absolute;
+	top: 125px;
+	left: 420px;
+	z-index: 3;
+}
+span > hr:nth-of-type(3) {
+	width: 90px;
+	position: absolute;
+	top: 165px;
+	left: 420px;
+	z-index: 3;
+}
+span > hr:nth-of-type(4) {
+	width: 70px;
+	position: absolute;
+	top: 190px;
+	left: 640px;
+	z-index: 3;
+}
+h3::after
+{
+	content: 'Symbol';
+	position: absolute;
+	top: 125px;
+	left: 350px;
+	display: none;
+}
+h4::after
+{
+	content: 'Name';
+	position: absolute;
+	top: 166px;
+	left: 370px;
+	display: none;
+}
+h5::after
+{
+	width: 60px;
+	content: 'Atomic Number';
+	position: absolute;
+	top: 90px;
+	left: 720px;
+	display: none;
+}
+h6::after
+{
+	width: 50px;
+	content: 'Atomic Mass';
+	position: absolute;
+	top: 190px;
+	left: 720px;
+	display: none;
+}
+h3,h4,h5,h6
+{
+	padding: 0;
+	margin: 0;
+}
+#hr
+{
+	position: absolute;
+	top: 64px;
+	left: 0px;
+	width: 50px;
+	height: 2px;
+	color: black;
+	background-color: black;
+	border: none;
+	transform: rotate(10deg);
+	display: inline;
+}
+marquee
+{
+	width: 69px;
+	position: absolute;
+}
+p
+{
+	line-height: 10px;
+	font-family: papyrus, fantasy;
+	font-size: 10px;
+	font-weight: lighter;
+	padding: 0;
+	margin: 0;
+}
+p::after{
+	font-size: 20px;
+	content: attr(content-text);
+	position: absolute;
+	top: 170px;
+	left: 500px;
+	z-index: 2;
+	display: none;
+	color: black;
+}
+pre
+{
+	font-family: Times New Roman;
+}
+pre:nth-child(1)
+{
+	margin: 0 0 10px 0;
+}
+pre:nth-child(3)
+{
+	margin: 10px 0 0 0;
+}
+div::after{
+	content: attr(content-text);
+	position: absolute;
+	top: 120px;
+	left: 350px;
+	z-index: 2;
+	display: none;
+	color: black
+}
+span 
+{
+	line-height: 35px;
+	font-family: Papyrus, fantasy;
+	font-size: 20px;
+	font-weight: bold;
+}
+span::after{
+	font-size: 40px;
+	content: attr(content-text);
+	position: absolute;
+	top: 120px;
+	left: 520px;
+	z-index: 2;
+	display: none;
+	color: black;
+}
+ .td:hover bdi::after, .td:hover bdo::after
+{
+	display: block;
+	width: 140px;
+	text-align: right;
+}
+.td:hover span::after, .td:hover div::after{
+	display: block;
+	width: 150px;
+	text-align: left;
+}
+.td:hover p::after
+{
+	display: block;
+	width: 150px;
+	text-align: center;
+}
+.td:hover h3::after, .td:hover h4::after, .td:hover h5::after, .td:hover h6::after, .td:hover hr
+{
+	display: block;
+}
+.td:hover .hr {
+	display: inline;
+}
+.table
+{
+	position: relative;
+	display: table;
+	border: 0;
+	margin: auto;
+}
+.tableone,.tabletwo,.tablehtree{
+	display: table;
+	width: 100%;
+}
+.thead
+{
+	color: #FFFFCC;
+	font-family: Times New Roman;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	display: table-caption;
+	padding-top: 10px;
+}
+.thead
+{
+	color: black;
+	font-family: Roma;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0px 0px 25px #009999;
+	padding: 20px 0 0 0;
+}
+.tbody
+{
+	display: table-row-group;
+}
+.tfoot
+{
+	padding-top: 15px;
+}
+.tr
+{
+	display: table-row;
+}
+.td
+{
+	width: 62px;
+	min-width: 62px;
+	min-height: 62px;
+	display: table-cell;
+	padding: 2px;
+	border: 0;
+}
+.blank
+{
+	width:100%;
+	display: table-cell;
+}
+.td.group
+{
+	color: #004B4B;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+	display: table-cell;
+	padding-bottom: 2px;
+	border: 0;
+}
+.td.period
+{
+	color: #004B4B;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	padding-bottom: 2px;
+	border: 0;
+}
+.td.types
+{
+	width: 106px;
+	height: 40px;
+	font-family: papyrus, fantasy;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	padding: 5px;
+	border-radius: 30px;
+}
+.td.marquee
+{
+	position: relative;
+	vertical-align: top;
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+}
+.hr 
+{
+	display: none;
+}
+.td.alkali_metals
+{
+	
+	background: -webkit-linear-gradient(left, rgb(255, 71, 71), rgb(255, 141, 141)); /* Safari */
+	background: -o-linear-gradient(right, rgb(255, 71, 71), rgb(255, 141, 141)); /* Opera*/
+	background: -moz-linear-gradient(right, rgb(255, 71, 71), rgb(255, 141, 141)); /* Firefox */
+	background: linear-gradient(to right, rgb(255, 71, 71), rgb(255, 141, 141)); /* Standard syntax */
+	border: 2px solid rgba(255,255,255,0.5);
+}
+.td.alkali_metals::after{
+	background: linear-gradient(to right, rgb(255, 71, 71), rgb(255, 141, 141));
+}
+.td.alkaline_earths
+{
+	background: -webkit-linear-gradient(left, rgb(255, 131, 48), rgb(255, 174, 121)); /* Safari */
+	background: -o-linear-gradient(right, rgb(255, 131, 48), rgb(255, 174, 121)); /* Opera*/
+	background: -moz-linear-gradient(right, rgb(255, 131, 48), rgb(255, 174, 121)); /* Firefox */
+	background: linear-gradient(to right, rgb(255, 131, 48), rgb(255, 174, 121)); /* Standard syntax */
+	border: 2px solid rgba(255,255,255,0.5);
+}
+.td.alkaline_earths::after{
+	background: linear-gradient(to right, rgb(255, 131, 48), rgb(255, 174, 121));
+}
+.td.transition_metals
+{
+	
+	background: -webkit-linear-gradient(left, rgb(230, 230, 0), rgb(255, 255, 161)); /* Safari */
+	background: -o-linear-gradient(right, rgb(230, 230, 0), rgb(255, 255, 161)); /* Opera*/
+	background: -moz-linear-gradient(right, rgb(230, 230, 0), rgb(255, 255, 161)); /* Firefox */
+	background: linear-gradient(to right, rgb(230, 230, 0), rgb(255, 255, 161)); /* Standard syntax */
+	border: 2px solid rgba(255,255,255,0.5);
+}
+.td.transition_metals::after{
+	background: linear-gradient(to right, rgb(230, 230, 0), rgb(255, 255, 161));
+}
+.td.basic_metals
+{
+	background: -webkit-linear-gradient(left, rgb(153, 255, 102), rgb(202, 255, 151)); /* Safari */
+	background: -o-linear-gradient(right, rgb(153, 255, 102), rgb(202, 255, 151)); /* Opera*/
+	background: -moz-linear-gradient(right, rgb(153, 255, 102), rgb(202, 255, 151)); /* Firefox */
+	background: linear-gradient(to right, rgb(153, 255, 102), rgb(202, 255, 151)); /* Standard syntax */
+	border: 2px solid rgba(255,255,255,0.5);
+}
+.td.basic_metals::after{
+	background: linear-gradient(to right, rgb(153, 255, 102), rgb(202, 255, 151));
+}
+.td.semimetals
+{
+	background: -webkit-linear-gradient(left, rgb(0, 153, 255), rgb(105, 195, 255)); /* Safari */
+	background: -o-linear-gradient(right, rgb(0, 153, 255), rgb(105, 195, 255)); /* Opera*/
+	background: -moz-linear-gradient(right, rgb(0, 153, 255), rgb(105, 195, 255)); /* Firefox */
+	background: linear-gradient(to right, rgb(0, 153, 255), rgb(105, 195, 255)); /* Standard syntax */
+	border: 2px solid rgba(255,255,255,0.5);
+}
+.td.semimetals::after{
+	background: linear-gradient(to right, rgb(0, 153, 255), rgb(105, 195, 255));
+}
+.td.nonmetals
+{
+	background: -webkit-linear-gradient(left, rgb(69, 106, 218), rgb(128, 153, 230)); /* Safari */
+	background: -o-linear-gradient(right, rgb(69, 106, 218), rgb(128, 153, 230)); /* Opera*/
+	background: -moz-linear-gradient(right, rgb(69, 106, 218), rgb(128, 153, 230)); /* Firefox */
+	background: linear-gradient(to right, rgb(69, 106, 218), rgb(128, 153, 230)); /* Standard syntax */
+	border: 2px solid rgba(255,255,255,0.5);
+}
+.td.nonmetals::after
+{
+	background: linear-gradient(to right, rgb(69, 106, 218), rgb(128, 153, 230));
+}
+.td.halogens
+{
+	background: -webkit-linear-gradient(left, rgb(154, 88, 255), rgb(146, 146, 228)); /* Safari */
+	background: -o-linear-gradient(right, rgb(154, 88, 255), rgb(146, 146, 228)); /* Opera*/
+	background: -moz-linear-gradient(right, rgb(154, 88, 255), rgb(146, 146, 228)); /* Firefox */
+	background: linear-gradient(to right, rgb(154, 88, 255), rgb(146, 146, 228)); /* Standard syntax */
+	border: 2px solid rgba(255,255,255,0.5);
+}
+.td.halogens::after{
+	background: linear-gradient(to right, rgb(154, 88, 255), rgb(146, 146, 228));
+}
+.td.noble_gases
+{
+	background: -webkit-linear-gradient(left, rgb(163, 25, 255), rgb(195, 105, 255)); /* Safari */
+	background: -o-linear-gradient(right, rgb(163, 25, 255), rgb(195, 105, 255)); /* Opera*/
+	background: -moz-linear-gradient(right, rgb(163, 25, 255), rgb(195, 105, 255)); /* Firefox */
+	background: linear-gradient(to right, rgb(163, 25, 255), rgb(195, 105, 255)); /* Standard syntax */
+	border: 2px solid rgba(255,255,255,0.5);
+}
+.td.noble_gases::after{
+	background: linear-gradient(to right, rgb(163, 25, 255), rgb(195, 105, 255));
+}
+.td.lanthanides
+{
+	background: -webkit-linear-gradient(left, rgb(172, 89, 89), rgb(201, 146, 146)); /* Safari */
+	background: -o-linear-gradient(right, rgb(172, 89, 89), rgb(201, 146, 146)); /* Opera*/
+	background: -moz-linear-gradient(right, rgb(172, 89, 89), rgb(201, 146, 146)); /* Firefox */
+	background: linear-gradient(to right, rgb(172, 89, 89), rgb(201, 146, 146)); /* Standard syntax */
+	border: 2px solid rgba(255,255,255,0.5);
+}
+.td.lanthanides::after{
+	background: linear-gradient(to right, rgb(172, 89, 89), rgb(201, 146, 146));
+}
+.td.actinides
+{
+	background: -webkit-linear-gradient(left, rgb(172, 89, 89), rgb(201, 146, 146)); /* Safari */
+	background: -o-linear-gradient(right, rgb(172, 89, 89), rgb(201, 146, 146)); /* Opera*/
+	background: -moz-linear-gradient(right, rgb(172, 89, 89), rgb(201, 146, 146)); /* Firefox */
+	background: linear-gradient(to right, rgb(129, 129, 158), rgb(163, 163, 185)); /* Standard syntax */
+	border: 2px solid rgba(255,255,255,0.5);
+}
+.td.actinides::after{
+	background: linear-gradient(to right, rgb(129, 129, 158), rgb(163, 163, 185));
+}
+.td.alkali_metals::after, .alkaline_earths::after, .transition_metals::after, .basic_metals::after, .semimetals::after, .td.nonmetals::after, .halogens::after, .noble_gases::after, .lanthanides::after, .actinides::after{
+	content: '';
+	position: absolute;
+	top: 80px;
+	left: 500px;
+	z-index: 1;
+	width: 150px;
+	height: 150px;
+	display: none;
+	border-radius: 15px;
+}
+.td.alkali_metals:hover::after, .alkaline_earths:hover::after, .transition_metals:hover::after, .basic_metals:hover::after, .semimetals:hover::after, .td.nonmetals:hover::after, .halogens:hover::after, .noble_gases:hover::after, .lanthanides:hover::after, .actinides:hover::after{
+	display: block;
+}
+@media screen and (min-width: 3000px)
+{
+	bdi
+	{
+		font-size: 5px;
+	}
+	bdo
+	{
+		font-size: 4px;
+	}
+	p
+	{
+		font-size: 5px;
+	}
+	span 
+	{
+		font-size: 30px;
+	}
+}
+@font-face
+{
+	font-family: "DALEK";
+	src: url("../fonts/DALEK.ttf")
+}
+@font-face
+{
+	font-family: "Handwriting";
+	src: url("../fonts/Handwriting.ttf")
+}
+@font-face
+{
+	font-family: "Roma";
+	src: url("../fonts/Roma.ttf")
+}

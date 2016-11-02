@@ -1,0 +1,91 @@
+html
+{
+	width: 100%;
+	margin: auto;
+}
+body
+{
+	width: 98%;
+	background: url('../images/bgimg.jpg') repeat top left;
+}
+article
+{
+	background: rgba(204, 255, 204, 0.5);
+	width: 1000px;
+	padding: 10px;
+	border-radius: 25px;
+	margin: auto;
+}
+aside
+{
+	
+	float: right;
+}
+figure
+{
+	background: rgba(175, 255, 121, 0.5);
+	padding: 10px;
+	border-radius: 10px;
+}
+div
+{
+	height: 274px;
+	box-shadow: 0 0 35px 0;
+	border-radius: 15px;
+}
+header
+{
+	font-family: Roma;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0px 0px 25px #009999;
+	margin: 20px;
+}
+h4
+{
+	font-family: DALEK;
+	text-shadow: 0px 0px 25px rgba(175, 255, 121, 1);
+}
+img
+{
+	border-radius: 15px;
+}
+p
+{
+	font-family: Papyrus, fantasy;
+	font-weight: bold;
+	text-indent: 10px;
+}
+p::first-letter
+{
+	color: #522900;
+	font-family: Roma;
+	font-size: 250%;
+}
+@font-face
+{
+	font-family: "DALEK";
+	src: url("../fonts/DALEK.ttf")
+}
+@font-face
+{
+	font-family: "Roma";
+	src: url("../fonts/Roma.ttf")
+}
+@font-face
+{
+	font-family: "Norse";
+	src: url("../fonts/Norse.otf")
+}
+@media screen and (min-width: 4000px)
+{
+	article
+	{
+		width: 1300px;
+	}
+}
+a:hover
+{
+	cursor: url("../cursors/wii-pointer-ccw.cur"), progress !important;
+}

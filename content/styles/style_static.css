@@ -1,0 +1,558 @@
+html
+{
+	height: 100%
+}
+body
+{
+	width: 1500px;
+	background: url("../images/bgimg.jpg") repeat top left;
+	padding: 0;
+	margin: auto;
+}
+header
+{
+	font-family: Roma;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0px 0px 25px #009999;
+	padding: 20px 0 0 0;
+}
+main
+{
+	position: relative;
+}
+table
+{
+	width: 1334px;
+	height: 804px;
+	max-height: 804px;
+	border: none;
+	border-spacing: 2px;
+	margin: auto;
+}
+td
+{
+	text-align: center;
+	padding: 2px;
+	border-radius: 10px;
+	margin: 0;	
+}
+a
+{
+	width: 68px;
+	height: 68px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	display: table;
+}
+a:hover
+{
+	cursor: url("../cursors/wii-pointer-ccw.cur"), progress !important;
+}
+ruby
+{
+	font-family: Dalek;
+	font-size: 17px;
+	font-weight: 900;
+	text-align: center;
+	display: table-header-group;
+	overflow: hidden;
+}
+rt
+{
+	font-size: 8px;
+	font-weight: 100;
+	text-align: left;
+	display: table-caption;
+	overflow: hidden;
+}
+strong
+{
+	font-family: Handwriting;
+	font-size: 10px;
+	text-align: center;
+	display: block;
+	overflow: hidden;
+	margin: 0;
+}
+tt
+{
+	font-size: 5px;
+	text-align: center;
+	display: block;
+	overflow: hidden;
+}
+ruby::after
+{
+	position: absolute;
+	z-index: 2;
+	top: 90px;
+	left: 500px;
+	color: black;
+	content: attr(content-text);
+	font-size: 35px;
+	display: none;
+}
+rt::after
+{
+	position: absolute;
+	z-index: 2;
+	top: 55px;
+	left: 505px;
+	color: black;
+	content: attr(content-text);
+	font-size: 15px;
+	display: none;
+}
+strong::after
+{
+	position: absolute;
+	z-index: 2;
+	top: 135px;
+	left: 500px;
+	color: black;
+	content: attr(content-text);
+	font-size: 20px;
+	display: none;
+}
+tt::after
+{
+	position: absolute;
+	z-index: 2;
+	top: 165px;
+	left: 502px;
+	color: black;
+	content: attr(content-text);
+	font-size: 15px;
+	display: none;
+}
+span
+{
+	position: absolute;
+	z-index: 2;
+	top: 50px;
+	left: 350px;
+}
+hr
+{
+	width: 83px;
+	height: 4px;
+	position: absolute;
+	z-index: 4;
+	top: 5px;
+	left: 70px;
+	color: black;
+	background-color: black;
+	display: none;
+	border: none;
+}
+hr:nth-child(2)
+{
+	width: 130px;
+	top: 50px;
+	left: 70px;
+}
+hr:nth-child(3)
+{
+	width: 80px;
+	top: 85px;
+	left: 290px;
+}
+hr:nth-child(4)
+{
+	width: 100px;
+	top: 116px;
+	left: 270px;
+}
+h3::after
+{
+	position: absolute;
+	top: 100px;
+	left: 350px;
+	content: 'Symbol';
+	display: none;
+}
+h4::after
+{
+	position: absolute;
+	top: 135px;
+	left: 725px;
+	content: 'Name';
+	display: none;
+}
+h5::after
+{
+	width: 60px;
+	position: absolute;
+	top: 50px;
+	left: 360px;
+	content: 'Atomic Number';
+	display: none;
+}
+h6::after
+{
+	width: 50px;
+	position: absolute;
+	top: 160px;
+	left: 720px;
+	content: 'Atomic Mass';
+	display: none;
+}
+h3,h4,h5,h6
+{
+	padding: 0;
+	margin: 0;
+}
+p
+{
+	font-family: Times New Roman;
+	font-size: 13px;
+	font-weight: bold;
+	overflow: hidden;
+}
+p::after
+{
+	position: absolute;
+	z-index: 2;
+	top: 110px;
+	left: 500px;
+	color: black;
+	content: attr(content-text);
+	font-size: 20px;
+	display: none;
+}
+div
+{
+	font-family: Garamond;
+	font-size: 15px;
+	overflow: hidden;
+}
+div::after
+{
+	position: absolute;
+	z-index: 2;
+	top: 115px;
+	left: 500px;
+	content: attr(content-text);
+	font-size: 20px;
+	font-weight: bold;
+	display: none;
+}
+td:hover[lang="AUS"]
+{
+	background-image: url("../images/aus.png");
+	background-size: cover;
+}
+td:hover[lang="DEN"]
+{
+	background-image: url("../images/den.png");
+	background-size: cover;
+}
+td:hover[lang="FIN"]
+{
+	background-image: url("../images/fin.png");
+	background-size: cover;
+}
+td:hover[lang="FR"]
+{
+	background-image: url("../images/fr.png");
+	background-size: cover;
+}
+td:hover[lang="GE"]
+{
+	background-image: url("../images/ge.png");
+	background-size: cover;
+}
+td:hover[lang="IT"]
+{
+	background-image: url("../images/it.png");
+	background-size: cover;
+}
+td:hover[lang="ROM"]
+{
+	background-image: url("../images/rom.png");
+	background-size: cover;
+}
+td:hover[lang="RU"]
+{
+	background-image: url("../images/RU.png");
+	background-size: cover;
+}
+td:hover[lang="SP"]
+{
+	background-image: url("../images/sp.png");
+	background-size: cover;
+}
+td:hover[lang="SW"]
+{
+	background-image: url("../images/sw.png");
+	background-size: cover;
+}
+td:hover[lang="SWZ"]
+{
+	background-image: url("../images/swz.png");
+	background-size: cover;
+}
+td:hover[lang="UK"]
+{
+	background-image: url("../images/uk.png");
+	background-size: cover;
+}
+td:hover[lang="USA"]
+{
+	background-image: url("../images/usa.png");
+	background-size: cover;
+}
+td:hover[lang="fruk"]
+{
+	background: url("../images/fruk.png") no-repeat center;
+	background-size: 100%;
+}
+td:hover[lang="usaru"]
+{
+	background: url("../images/usaru.png") no-repeat center;
+	background-size: 100%;
+}
+td:hover[lang="usaru_alt"]
+{
+	background: url("../images/usaru_alt.png") no-repeat center;
+	background-size: 100%;
+}
+td:hover[lang="swge"]
+{
+	background: url("../images/swge.png") no-repeat center;
+	background-size: 100%;
+}
+td:hover[lang="ukge"]
+{
+	background: url("../images/ukge.png") no-repeat center;
+	background-size: 100%;
+}
+td:hover[lang="fruksw"]
+{
+	background: url("../images/fruksw.png") no-repeat center;
+	background-size: 100%;
+}
+td:hover[lang=""]
+{
+	background: url("../images/known.png") no-repeat center;
+	background-size: 100%;
+}
+td:hover[lang] ruby, td:hover[lang] strong, td:hover[lang] tt ,  td:hover[lang] rt 
+{
+	font-size: 0px;
+}
+#line
+{
+	position: relative;
+}
+pre
+{
+	font-family: Times New Roman;
+}
+pre:nth-child(1)
+{
+	margin: 0 0 10px 0;
+}
+pre:nth-child(3)
+{
+	margin: 10px 0 0 0;
+}
+#hr
+{
+	width: 50px;
+	height: 2px;
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	color: black;
+	background-color: black;
+	display: inline;
+	transform: rotate(10deg);
+}
+td:hover rt::after
+{
+	width: 140px;
+	text-align: left;
+	display: block;
+}
+td:hover ruby::after, td:hover strong::after, td:hover tt::after, td:hover div::after, td:hover p::after
+{
+	width: 150px;
+	text-align: center;
+	display: block;
+}
+td:hover h3::after, td:hover h4::after, td:hover h5::after, td:hover h6::after, td:hover hr
+{
+	display: block;
+}
+q
+{
+	quotes: '[' ']';
+}
+.alkali_metal, .alkaline_earth, .transition_metal, .basic_metal, .semimetal, .nonmetal, .halogen, .noble_gas, .lanthanide, .actinide
+{
+	width: 68px;
+	min-width: 68px;
+	max-width: 68px;
+	height: 68px;
+	min-height: 68px;
+	max-height: 68px;
+}
+.alkali_metal
+{
+	background: url('../images/alkali_metals.jpg');
+}
+.alkaline_earth
+{
+	background: url('../images/alkaline_earths.jpg');
+}
+.transition_metal
+{
+	background: url('../images/transition_metals.jpg');
+}
+.basic_metal
+{
+	background: url('../images/basic_metals.jpg');
+}
+.semimetal
+{
+	background: url('../images/semimetals.jpg');
+}
+.nonmetal
+{
+	background: url('../images/nonmetals.jpg');
+}
+.halogen
+{
+	background: url('../images/halogens.jpg');
+}
+.noble_gas
+{
+	background: url('../images/noble_gases.jpg');
+}
+.lanthanide
+{
+	background: url('../images/lanthanides.jpg');
+}
+.actinide
+{
+	background: url('../images/actinides.jpg');
+}
+
+.alkali_metal::after, .alkaline_earth::after, .transition_metal::after, .basic_metal::after, .semimetal::after, .nonmetal::after, .halogen::after, .noble_gas::after, .lanthanide::after, .actinide::after{
+	content: '';
+	position: absolute;
+	top: 50px;
+	left: 500px;
+	z-index: 1;
+	width: 150px;
+	height: 150px;
+	display: none;
+	border-radius: 15px;
+}
+.alkali_metal::after
+{
+	background: url('../images/alkali_metals.jpg');
+}
+.alkaline_earth::after
+{
+	background: url('../images/alkaline_earths.jpg');
+}
+.transition_metal::after
+{
+	background: url('../images/transition_metals.jpg');
+}
+.basic_metal::after
+{
+	background: url('../images/basic_metals.jpg');
+}
+.semimetal::after
+{
+	background: url('../images/semimetals.jpg');
+}
+.nonmetal::after
+{
+	background: url('../images/nonmetals.jpg');
+}
+.halogen::after
+{
+	background: url('../images/halogens.jpg');
+}
+.noble_gas::after
+{
+	background: url('../images/noble_gases.jpg');
+}
+.lanthanide::after
+{
+	background: url('../images/lanthanides.jpg');
+}
+.actinide::after
+{
+	background: url('../images/actinides.jpg');
+}
+.alkali_metal:hover, .alkaline_earth:hover, .transition_metal:hover, .basic_metal:hover, .semimetal:hover, .nonmetal:hover, .halogen:hover, .noble_gas:hover, .lanthanide:hover, .actinide:hover
+{
+	box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,1);
+}
+.alkali_metal:hover::after, .alkaline_earth:hover::after, .transition_metal:hover::after, .basic_metal:hover::after, .semimetal:hover::after, .nonmetal:hover::after, .halogen:hover::after, .noble_gas:hover::after, .lanthanide:hover::after, .actinide:hover::after
+{
+	display: block;
+}
+.group
+{
+	color: #004B4B;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+}
+.period
+{
+	color: #004B4B;
+	font-weight: bold;
+}
+.series
+{
+	color: #004B4B;
+	font-family: Dalek;
+}
+.blank
+{
+	height: 15px;
+}
+@media screen and (min-width: 4000px)
+{
+	ruby
+	{
+		font-size: 25px;
+	}
+	rt, strong, tt
+	{
+		font-size: 5px;
+	}
+	div
+	{
+		font-size: 50%;
+	}
+	#hr
+	{
+		height: 2px;
+	}
+}
+@font-face
+{
+	font-family: "Dalek";
+	src: url("../fonts/DALEK.ttf")
+}
+@font-face
+{
+	font-family: "Handwriting";
+	src: url("../fonts/Handwriting.ttf")
+}
+@font-face
+{
+	font-family: "Roma";
+	src: url("../fonts/Roma.ttf")
+}
